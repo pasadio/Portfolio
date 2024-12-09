@@ -1,27 +1,27 @@
 @font-face {
     font-family: Inter;
-    src: url(/fonts/Inter-Regular.woff2);
+    src: url("../Portfolio/fonts/Inter-Regular.woff2");
 }
 
 @font-face {
     font-family: InterLight;
-    src: url(/fonts/Inter-Light.woff2);
+    src: url("../Portfolio/fonts/Inter-Light.woff2");
 }
 
 @font-face {
     font-family:OtterDisplay ;
-    src: url(/fonts/ottercodisplay-medium.woff2);
+    src: url("../Portfolio/fonts/ottercodisplay-medium.woff2)";
 }
 
 
 @font-face {
     font-family:InterSemiBold ;
-    src: url(/fonts/Inter-SemiBold.woff2);
+    src: url("../Portfolio/fonts/Inter-SemiBold.woff2");
 }
 
 @font-face {
     font-family: 'GeneralSans-Semibold';
-    src: url('/Fonts/GeneralSans-Semibold.woff2') format('woff2');
+    src: url("../Portfolio/Fonts/GeneralSans-Semibold.woff2") format('woff2');
     font-weight: 600;
     font-display: swap;
     font-style: normal;
