@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Fonts/fonts.css">
+   </head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav>
+                <a href="#section1">A Propos</a>
+                <a href="#section2">BTS SIO</a>
+                <a href="#section3">Mes Stages</a>
+                <button class="button" role="button"><a href="#section4" class="button">Contactez moi</a></button>
+             </nav>
+        </header>
+    <section id="section1">
+
+    <main>
+        <aside>
+        <h1 id="name">Bonjour</h1>
+        <p class="text">Je m'appelle ! Étudiant en BTS SIO, je suis passionné par le développement web et je vise à acquérir les compétences nécessaires pour devenir un développeur web compétent.</p>
+        <button id="buttonCV" role="button"><a href="/Download/resume.pdf" class="buttonCV" download>Téléchargez mon CV</a></button>
+        </aside>
+        <div class="imageDev">
+            <img src="/Images/imageDev.svg" alt="développeur">
+        </div>
+    </main>
+    </section>
+
+    <section id="section2">
+        <h1 id="TitreS2">Le BTS SIO</h1>
+        <p class="TexteS2">Je suis actuellement étudiant en BTS SIO (Services Informatiques aux Organisations), une formation de niveau Bac +2 qui me permet d'acquérir des compétences solides dans le domaine des technologies de l'information. Ce diplôme me prépare à concevoir, déployer et gérer des solutions informatiques adaptées aux besoins des entreprises, tout en développant ma capacité à travailler en équipe et à communiquer efficacement dans un environnement professionnel.</p>
+        <h1 id="TexteS2">Découvrez les deux options de cette formation.</h1>
+    <div id="OptionsSIO">
+        <div class="cardSIO">
+        <div class="TexteOptions">
+        <h2>SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</h2>
+        <p>La spécialité SISR se concentre sur l'administration des systèmes et des réseaux. 
+            Les étudiants apprennent à gérer l'infrastructure informatique, à assurer la sécurité des réseaux 
+            et à maintenir les systèmes en fonctionnement. Cette option prépare les futurs professionnels 
+            à relever les défis techniques liés à l'architecture des systèmes d'information.</p>
+    </div>
+    </div>
+    <div class="cardSIO">
+    <div dlass="TexteOptions2">
+            <h2>SLAM (Solutions Logicielles et Applications Métiers)</h2>
+        <p>La spécialité SLAM est dédiée au développement de logiciels et d'applications métiers. 
+            Les étudiants acquièrent des compétences en programmation, en gestion de bases de données 
+            et en conception d'applications adaptées aux besoins des entreprises. Cette option forme 
+            des développeurs capables de créer des solutions innovantes et efficaces.</p>
+        </div>
+    </div>
+</div>
+        </div>
+        
+    </section>
+
+<section id="section3">
+    <h1>Mes Stages</h1>
+    <div class="mainS3">
+    <img src="Images/casino.jpg" alt="Casino" id="casino">
+    <h2>Casino</h1>
+    <p>Au cours de mes stages chez Casino, qui se sont déroulés de 2021 à 2024, j'ai eu l'opportunité de travailler dans divers secteurs de l'entreprise, ce qui m'a permis d'acquérir une expérience pratique précieuse. Voici un aperçu des activités que j'ai réalisées :
+
+        Service Client :
+            Accueil et assistance des clients, en répondant à leurs questions et en les aidant à trouver les produits recherchés.
+            Gestion des réclamations et des retours, en veillant à offrir une expérience client positive.
+            Participation à la mise en place d'initiatives pour améliorer la satisfaction client.
+    
+        Mise en Rayon :
+            Réapprovisionnement des rayons et organisation des produits pour assurer une présentation attrayante.
+            Suivi des dates de péremption et gestion des stocks pour minimiser les pertes.
+            Collaboration avec l'équipe pour optimiser l'agencement des produits en fonction des promotions et des saisons.
+    
+        Poissonnerie :
+            Assistance dans la préparation et la présentation des produits de la mer.
+            Conseil aux clients sur les différents types de poissons et fruits de mer, ainsi que sur les méthodes de cuisson.
+            Veille à la propreté et à l'hygiène de l'espace de travail, en respectant les normes de sécurité alimentaire.
+    
+    Ces expériences m'ont permis de développer des compétences en service à la clientèle, en gestion des stocks et en travail d'équipe, tout en me familiarisant avec le fonctionnement d'un supermarché.</p>
+    </div>
+</section>
+
+    <section id="section4">
+        <div class="card">
+            <form action="https://api.web3forms.com/submit" method="post">
+                <h1>Envoyez moi un mail</h1>
+                <input type="hidden" name="access_key" value="">
+
+                <input type="text" name="name" placeholder="Nom" class="ContactInputs">
+                <input type="email" name="email" placeholder="Votre Email" class="ContactInputs">
+                <textarea name="message" placeholder="Votre Message" class="ContactText"></textarea>
+
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <button type="submit" id="buttonForm" role="button"><a href="#" class="buttonCV">Envoyer</a></button>
+            </form>
+            <div class="map">
+                <iframe id="map" width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=5.113792419433595%2C43.15385293826157%2C5.561485290527344%2C43.40654404239366&amp;layer=mapnik" style="border: 1px solid #262626"></iframe><br/><small>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+    <footer>
+
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

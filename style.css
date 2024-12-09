@@ -1,0 +1,320 @@
+:root {
+    --background: #10100E;
+    --accent: #b2e0b2;
+    --text: #FFFFE3;
+    --text2: #30302B;
+    --text3: #c9c9b2;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--background);
+    color: var(--text);
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Inter;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    border-bottom: solid 2px var(--text2);
+}
+
+#section2 {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TexteS2 {
+    width: 37%;
+    text-align: justify;
+}
+
+#OptionsSIO {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.TexteOptions {
+    margin: 12px;
+}
+
+#section3 {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: var(--text);
+    font-size: 7rem;
+}
+
+.mainS3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+#casino {
+    margin-right: 300px;
+    border-radius: 50px;
+    width: 700px;
+
+}
+
+#section3 h1 {
+
+}
+
+
+#section4 {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    background-color: var(--background);
+    border-bottom: solid 2px var(--text2);
+    justify-content: space-around;
+    font-family: InterSemiBold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 90px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 250px 30vh 250px;
+    height: 100%;
+}
+
+#name {
+    font-family: GeneralSans-Semibold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.text {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 22px;
+    color: var(--text3);
+}
+
+#buttonCV {
+    background-color: #26262600;
+    border-radius: 50px;
+    border-style: none;
+    border: solid 1px var(--text);
+    cursor: pointer;
+    padding: 12px;
+    font-size: 0.7rem;
+    transition: transform 0.2s ease;
+    font-family: InterSemiBold;
+    width: 100%;
+}
+
+button > a {
+    color: var(--text);
+}
+
+aside {
+    width: 390px;
+    margin-right: 50px;
+}
+
+p {
+    color: var(--text3);
+}
+
+img {
+    width: 500px;
+}
+
+a {
+    margin: 12px;
+    color: var(--text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--text2);
+    transition: 0.3s all;
+}
+.button {
+  background-color: var(--text);
+  border-radius: 50px;
+  border-style: none;
+  color: var(--background);
+  cursor: pointer;
+  padding: 12px;
+  font-size: 0.7rem;
+  transition: transform 0.2s ease;
+  font-family: InterSemiBold;
+}
+
+#buttonCV:active, .button:active {
+  transform: scale(1.1);
+  border-radius: 50px;
+}
+
+.card {
+    background-color: var(--background);
+    width: 120vh;
+    height: 60vh;
+    border-radius: 50px;
+    text-align: center;
+    font-family: GeneralSans-SemiBold;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px var(--text);
+}
+
+#map {
+    border-radius: 30px;
+    height: 700px;
+    width: 550px;
+    opacity: 0.7;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    margin: 0;
+}
+
+#map:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.map {
+    margin-left: 250px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+}
+
+.ContactInputs {
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: var(--text2);
+    padding-left: 12px;
+}
+
+.ContactText {
+    height: 130px;
+    width: 500px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: var(--text2);
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+#buttonForm{
+    background-color: var(--background);
+    border-radius: 50px;
+    border-style: none;
+    color: var(--background);
+    border: solid 2px var(--text);
+    cursor: pointer;
+    padding: 12px;
+    height: 50px;
+    font-size: 0.7rem;
+    transition: transform 0.2s ease;
+    font-family: InterSemiBold;
+}
+
+#buttonForm:active {
+  transform: scale(1.1);
+}
+
+.ContactInputs:focus, .ContactText:focus {
+    outline: none;
+}
+
+.ContactText::placeholder, .ContactText:focus, .ContactInputs::placeholder, .ContactInputs:focus {
+    color: var(--text);
+    font-family: InterLight;
+    font-size: 0.7rem;
+}
+
+
+#OptionsSIO {
+    width: 100vh;
+}
+
+#TitreS2 {
+    top: 10%;
+    left: 50%;
+    font-family: GeneralSans-SemiBold;
+    font-size: 5rem;
+    margin: 0;
+}
+
+#TexteS2 {
+    font-size: 2rem;
+    color: var(--text);
+}
+
+
+.cardSIO {
+    background-color: var(--background);
+    width: 50%;
+    height: 350px;
+    border-radius: 50px;
+    color: var(--text);
+    text-align: center;
+    font-family: GeneralSans-SemiBold;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px var(--text);
+    margin: 12px;
+  }
+
+#TexteOptions {
+    background-color: var(--text);
+}
+
+  h1 {
+    font-family: GeneralSans-SemiBold;
+  }

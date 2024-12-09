@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Fonts/fonts.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html/#section1">A Propos</a>
+            <a href="#section2">BTS SIO</a>
+            <a href="#section3">Mes Stages</a>
+            <button class="button" role="button"><a href="contact.html" class="button">Contactez moi</a></button>
+         </nav>
+    </header>
+    <div class="card">
+        <form action="https://api.web3forms.com/submit" method="post">
+            <h1>Envoyez moi un mail</h1>
+            <input type="hidden" name="access_key" value="5a5ef90b-8016-4264-9868-79a44d0df4f8">
+
+            <input type="text" name="name" placeholder="Nom" class="ContactInputs">
+            <input type="email" name="email" placeholder="Votre Email" class="ContactInputs">
+            <textarea name="message" placeholder="Votre Message" class="ContactText"></textarea>
+
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button type="submit" id="buttonForm" role="button"><a href="#" class="buttonCV">Envoyer</a></button>
+        </form>
+        <div class="map">
+            <iframe id="map" width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=5.113792419433595%2C43.15385293826157%2C5.561485290527344%2C43.40654404239366&amp;layer=mapnik" style="border: 1px solid #262626"></iframe><br/><small>
+        </div>
+    </div>
+</body>
+</html>
